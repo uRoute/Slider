@@ -1,0 +1,37 @@
+body{
+    background-color: #161a28;
+}
+.item{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.item-caption{
+    position: absolute;
+    bottom: 2%;
+    background-color: white;
+    width: 80%;
+}
+
+.layer{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layer .container{
+    width: 40%;
+    height: 80vh;
+    background-image: url(../images/portfolio-1.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.layer i{
+    cursor: pointer;
+}
